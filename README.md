@@ -11,24 +11,24 @@
 架設方式：[Proxmox VE 3安裝與建立OpenVZ虛擬機器](http://pulipuli.blogspot.tw/2013/07/proxmox-ve-3openvz.html)
 
 架設起來之後，連線方式如下：( **[vufind]**是該主機的網址 )
-- http://[vufind]/
+- <u>http://[vufind]/</u>
 VuFind主畫面
-- https://[vufind]/
+- <u>https://[vufind]/</u>
 Turnkey Linux伺服器管理畫面：Web Shell (console), Webmin, PHPMyAdmin, Apache Solr
 
 ##設定##
 
 ###Koha設定###
-- 修改 /usr/local/vufind2/local/config/vufind/Koha.ini
-- 執行 ~/vufind-restart.sh
+- 修改 <code>/usr/local/vufind2/local/config/vufind/Koha.ini</code>
+- 執行 <code>~/vufind-restart.sh</code>
 
 ###OAI-PMH設定###
-- 修改 /usr/local/vufind2/harvest/oai.php
-- 執行 ~/harvest_oai.sh
+- 修改 <code>/usr/local/vufind2/harvest/oai.php</code>
+- 執行 <code>~/harvest_oai.sh</code>
 
 ###DataImport設定###
-- 修改 /usr/local/vufind2/solr/biblio/conf/dataimport-config-mysql.xml
-- 執行 ~/dataimport_full.sh
+- 修改 <code>/usr/local/vufind2/solr/biblio/conf/dataimport-config-mysql.xml</code>
+- 執行 <code>~/dataimport_full.sh</code>
 
 ##MySQL資料庫##
 帳號與密碼：
@@ -42,7 +42,7 @@ root / password
 - 每天早上5點，執行Apache Solr最佳化 (optimize)
 
 ##其他指令##
-- ~/clean_vufind.sh
+- <code>~/clean_vufind.sh</code>
 把資料全部清空，但是設定檔案不會還原，請注意。
 
 ------
