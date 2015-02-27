@@ -4,6 +4,10 @@
 
 [下載VuFind 2虛擬應用範本](http://cloud-disk-2013.dlll.nccu.edu.tw/public.php?service=files&t=abc16758e8b8c4c91538830a4016565b)
 
+*這是Open VZ的虛擬應用範本，請不要解壓縮，可直接使用。*
+
+##架設##
+
 架設方式：[Proxmox VE 3安裝與建立OpenVZ虛擬機器](http://pulipuli.blogspot.tw/2013/07/proxmox-ve-3openvz.html)
 
 架設起來之後，連線方式如下：( **[vufind]**是該主機的網址 )
